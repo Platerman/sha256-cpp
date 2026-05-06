@@ -1,0 +1,19 @@
+#include <windows.h>
+
+IDI_ICON1 ICON "app.ico"
+
+VS_VERSION_INFO VERSIONINFO
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", ""
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
